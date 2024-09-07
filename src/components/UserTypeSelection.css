@@ -1,0 +1,119 @@
+/* src/components/UserTypeSelection.css */
+
+.user-type-selection-container {
+    max-width: 800px; /* Increased width for better spacing */
+    margin: 40px auto; /* Added margin for top and bottom spacing */
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9; /* Light background color for contrast */
+    border-radius: 10px; /* Rounded corners for container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  .title {
+    font-size: 2.5em; /* Larger font size for title */
+    margin-bottom: 30px; /* Increased bottom margin */
+    color: #333; /* Darker color for title */
+  }
+  
+  .user-types {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px; /* Added gap between cards */
+    flex-wrap: wrap; /* Allows wrapping of cards on smaller screens */
+  }
+  
+  .user-type-card {
+    width: 250px; /* Fixed width for cards */
+    padding: 30px 20px; /* Increased padding for better spacing */
+    border: 1px solid #ddd; /* Slightly lighter border color */
+    border-radius: 12px; /* More rounded corners */
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition */
+    background-color: #fff; /* White background for cards */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Slight shadow for cards */
+  }
+  
+  .user-type-card:hover {
+    transform: translateY(-10px); /* Increased translate value for more effect */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Darker and larger shadow */
+  }
+  
+  .user-type-card h2 {
+    margin-bottom: 15px; /* Increased bottom margin */
+    font-size: 1.8em; /* Larger font size */
+    color: #007BFF; /* Primary color for heading */
+  }
+  
+  .user-type-card p {
+    font-size: 1em;
+    color: #555; /* Subtle text color */
+  }
+  
+  /* src/components/UserTypeSelection.css */
+
+.user-type-selection-container {
+  max-width: 800px; /* Increased width for better spacing */
+  margin: 40px auto; /* Added margin for top and bottom spacing */
+  padding: 20px;
+  text-align: center;
+  background-color: #f9f9f9; /* Light background color for contrast */
+  border-radius: 10px; /* Rounded corners for container */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.title {
+  font-size: 2.5em; /* Larger font size for title */
+  margin-bottom: 30px; /* Increased bottom margin */
+  color: #333; /* Darker color for title */
+}
+
+.user-types {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px; /* Added gap between cards */
+  flex-wrap: wrap; /* Allows wrapping of cards on smaller screens */
+}
+
+.user-type-card {
+  width: 250px; /* Fixed width for cards */
+  padding: 30px 20px; /* Increased padding for better spacing */
+  border: 1px solid #ddd; /* Slightly lighter border color */
+  border-radius: 12px; /* More rounded corners */
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition */
+  background-color: #fff; /* White background for cards */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Slight shadow for cards */
+}
+
+.user-type-card:hover {
+  transform: translateY(-10px); /* Increased translate value for more effect */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Darker and larger shadow */
+}
+
+.user-type-card h2 {
+  margin-bottom: 15px; /* Increased bottom margin */
+  font-size: 1.8em; /* Larger font size */
+  color: #007BFF; /* Primary color for heading */
+}
+
+.user-type-card p {
+  font-size: 1em;
+  color: #555; /* Subtle text color */
+}
+
+/* Add this at the end of your UserTypeSelection.css */
+
+/* For screens smaller than 768px */
+@media (max-width: 768px) {
+    .user-types {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .user-type-card {
+      width: 80%; /* Make cards wider on smaller screens */
+      margin-bottom: 20px; /* Add margin at the bottom */
+    }
+  }
+  

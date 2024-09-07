@@ -1,0 +1,131 @@
+/* Admin Dashboard Container */
+.admin-dashboard {
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+}
+
+/* Dashboard Header */
+.dashboard-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.dashboard-header h1 {
+    color: #2e7d32; /* Dark green */
+    font-size: 2.5em;
+    margin: 0;
+}
+
+/* Metrics Section */
+.dashboard-metrics {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.metric-card {
+    background-color: #ffffff;
+    border: 1px solid #2e7d32; /* Dark green */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 15px;
+    text-align: center;
+    flex: 1 1 250px;
+    transition: transform 0.2s;
+}
+
+.metric-card:hover {
+    transform: scale(1.05);
+}
+
+.metric-card h2 {
+    color: #2e7d32; /* Dark green */
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.metric-card p {
+    font-size: 1.25em;
+    color: #333;
+    margin: 0;
+}
+
+/* Chart Section */
+.chart-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.chart-section h2 {
+    color: #2e7d32; /* Dark green */
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.chart-wrapper {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+    width: 80%;
+}
+
+/* Table Section */
+.users-section {
+    margin-top: 40px;
+}
+
+.users-section h2 {
+    color: #2e7d32; /* Dark green */
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.user-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.user-table th,
+.user-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.user-table th {
+    background-color: #2e7d32; /* Dark green */
+    color: white;
+    font-weight: bold;
+}
+
+.user-table td {
+    color: #333;
+}
+
+.user-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.user-table tr:hover {
+    background-color: #e0e0e0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .metric-card {
+        flex: 1 1 100%;
+    }
+
+    .chart-wrapper {
+        width: 100%;
+    }
+}

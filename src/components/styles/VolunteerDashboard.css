@@ -1,0 +1,153 @@
+.volunteer {
+  margin: 0;
+}
+.volunteer .instant-donate {
+  border: #28a745;
+  background-color: #e4f5e8;
+  width: 98vw;
+  padding: 10px;
+  margin: 2px;
+  display: flex;
+}
+.volunteer .instant-donate .green-button {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.volunteer .instant-donate .green-button:hover {
+  background-color: #1d7a33;
+}
+.volunteer .donation-main {
+  display: flex;
+}
+.volunteer .donation .requests-map {
+  height: 75vh;
+  width: 60%;
+  display: inline-block;
+}
+.volunteer .donation-requests {
+  display: flex;
+  flex-direction: column;
+}
+.volunteer .donation-requests {
+  float: right;
+  max-width: 600px;
+  width: 600px;
+  align-items: center;
+  overflow-y: scroll;
+  height: 70vh;
+}
+.volunteer .map {
+  height: 70vh;
+  display: inline-block;
+}
+.volunteer .donation-request {
+  padding: 20px 80px;
+  border: 1px solid #bdc2be;
+}
+.volunteer .donation-request button {
+  margin: 0;
+}
+.volunteer .flex-box {
+  display: flex;
+  height: 75vh;
+  margin: 5px;
+  margin-right: 0;
+}
+.volunteer .transactions, .instant-donations {
+  border: 2px solid #abdfb7;
+  padding: 20px;
+  margin-right: 5px;
+  flex-grow: 1;
+  overflow-y: scroll;
+}
+.volunteer .instant-donations .donation {
+  background-color: #e4f7ea;
+  border: 1px solid #1d7a33;
+  padding: 10px;
+}
+.volunteer .transaction {
+  display: flex;
+  position: relative;
+}
+.volunteer .donar-details, .receiver-details {
+  flex-grow: 1;
+  background-color: #e4f7ea;
+  border: 1px solid #1d7a33;
+  padding: 10px;
+}
+.volunteer .accept-button {
+  border: none;
+  border-top: 1px solid #1d7a33;
+  border-bottom: 1px solid #1d7a33;
+  padding: 20px;
+  background-color: #28a745;
+  color: white;
+}
+.volunteer .transaction * {
+  margin: 0;
+}
+.volunteer .transaction h3 {
+  margin-bottom: 5px;
+}
+.volunteer .donation * {
+  margin: 0;
+}
+.volunteer .donation {
+  display: flex;
+  padding: 20px;
+}
+.volunteer .donation-values {
+  padding: 10px;
+  padding-left: 20px;
+}
+.volunteer .donation button {
+  margin-left: auto;
+  border-radius: 5px;
+}
+.image-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #1d7a33;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+.image-food {
+  position: fixed;
+  top: 100px;
+  bottom: 100px;
+  left: 100px;
+  right: 100px;
+  z-index: 1001;
+}
+.image-food img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(1, 1, 1, 0.7);
+  z-index: 1000;
+}
+.cross-image {
+  position: fixed;
+  top: 10px;
+  right: 20px;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 40px;
+  padding: 20px 30px;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 30px;
+  cursor: pointer;
+}

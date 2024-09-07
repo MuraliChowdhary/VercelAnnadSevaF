@@ -1,0 +1,38 @@
+.donate-container {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .map-container {
+    height: 50vh; /* Adjust height as needed */
+    width: 100%;
+    max-width: 800px; /* Max width for larger screens */
+  }
+  
+  .requests {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .donation-request {
+    margin-bottom: 20px;
+  }
+  
+  .green-button {
+    background-color: green;
+    color: white;
+  }
+  
+  @media (max-width: 768px) {
+    .map-container {
+      height: 40vh; /* Adjust height for smaller screens */
+    }
+  }
+  

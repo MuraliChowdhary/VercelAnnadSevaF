@@ -1,0 +1,34 @@
+.logs {
+    width: 100%;
+}
+.logs table {
+    width: 98%;
+    transform: translateX(1%);
+}
+.logs table, .logs th, .logs td {
+    border: 1px solid rgb(20, 118, 40);
+    border-collapse: collapse;
+}
+.logs th, .logs td {
+    padding: 10px;
+}
+.logs thead {
+    background-color: rgb(9, 143, 62);
+    color: white;
+}
+.logs button {
+    background-color: rgb(9, 143, 62);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+}
+.logs button:hover {
+    background-color: rgb(20, 118, 40);
+}
+.logs input {
+    width: 90%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
